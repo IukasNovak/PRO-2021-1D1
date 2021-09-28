@@ -1,0 +1,15 @@
+canvas = tkinter.Canvas()
+
+
+canvas.create_line(20, 150, 20, 50, width=3)
+canvas.create_line(20, 150, 50, 150, width=3)
+
+canvas.create_line(58,150,60,150 ,width=4)
+
+canvas.create_line(75,151,75,50, width=3)
+canvas.create_line(75,50,120,150, width=3)
+canvas.create_line(120,50,120,150, width=3)
+
+canvas.create_line(130,150,132,150,width=4)
+
+canvas.pack()
